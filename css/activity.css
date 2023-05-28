@@ -1,0 +1,85 @@
+table, tr, td{
+    border: 5px solid white;
+    border-collapse: collapse;
+    font-size: 10px;
+    height: 1px;
+}
+table{
+    width: 100%;
+}
+#ToE{
+    font-size: 50px;
+    text-align: center;
+}
+#empt{
+    background: white;
+}
+h1{
+    text-align: center;
+    line-height: 1px;
+    font-size: 25px;
+}
+.Alkali-metals{
+    background: rgb(110, 255, 255);
+    color: rgb(30, 107, 107);
+}
+.Alkaline-earth-metals{
+    background: pink;
+    color: red;
+}
+.Transition-metals{
+    background: rgb(245, 181, 245);
+    color: purple;
+}
+.Post-transition-metals{
+    background: lightgreen;
+    color: green;
+}
+.Metalloids{
+    background: rgb(187, 187, 78);
+    color: yellow;
+}
+.Reactive-nonmetals{
+    background: lightblue;
+    color: blue;
+}
+.Noble-gases{
+    background: pink;
+    color: rgb(206, 76, 97);
+}
+.Lanthanides{
+    background: lightblue;
+    color: rgb(0, 128, 170);
+}
+.Actinides{
+    background: rgb(252, 188, 70);
+    color: rgb(83, 63, 27);
+}
+.Unknown-properties{
+    background: darkgrey;
+    color: grey;
+}
+.orange{
+    background-color: orange;
+    color: orangered;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.6);
+}
+td:hover{
+    background-color: white;
+    -ms-transform: scale(3); 
+   -webkit-transform: scale(3); 
+    transform: scale(3);
+    transition: transform .2s;
+}
+
+
+#empt{
+    background-color: white;
+    -ms-transform: scale(1); 
+   -webkit-transform: scale(1); 
+    transform: scale(1);
+    transition: transform .2s;
+}
