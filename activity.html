@@ -37,7 +37,202 @@
           </div>
         </div>
       </nav>
-    <section id="home">
+
+
+     <section class="container p-5" id="survey">
+    
+    <form id="surveyform" class="needs-validation" novalidate>
+      <h1 class="title text-center p-5">Survey Form</h1>
+      <div class="container p-5 survey">
+        <div class="row">
+            <div class="mb-3 col-lg-6">
+              <label for="name" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3 col-lg-6">
+              <label for="name" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3 col-lg-3">
+              <label for="name" class="form-label">Age</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="invalid-feedback">Please enter your Age.</div>
+            </div>
+            <div class="mb-3 col-lg-4">
+              <label for="name" class="form-label">Gender</label>
+              <input type="text" class="form-control" id="name" required>
+              <select class="form-control" id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Prefer not to say</option>
+              </select>
+              <div class="invalid-feedback">Please enter your Gender.</div>
+            </div>
+            <div class="mb-3 col-lg-5">
+              <label for="name" class="form-label">Country</label>
+              <input type="text" class="form-control" id="name" required>
+              <select class="form-control" id="Country" name="Country" required>
+                <option value="" disabled selected>Select your Country</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Czechia">Czechia</option>
+                <option value="Canada">Canada</option>
+                <option value="Austrilia">Austrilia</option>
+                <option value="Greece">Greece</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Finland">Finland</option>
+                <option value="Germany">Germany</option>
+                <option value="Italy">Italy</option>
+                <option value="India">India</option>
+                <option value="Austria">Austria</option>
+                <option value="Croatia">Croatia</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Belize">Belize</option>
+                <option value="Benin">Benin</option>
+                <option value="Cameron">Cameron</option>
+                <option value="Central Africa">Central Africa</option>
+                <option value="Chad">Chad</option>
+                <option value="China">China</option>
+                <option value="Comoros">Comoros</option>
+                <option value="Congo">Congo</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Democratic">Democratic</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Eswatini">Eswatini</option>
+                <option value="Fiji">Fiji</option>
+              </select>
+              <div class="invalid-feedback">Please enter your Country.</div>
+            </div>
+            <div>
+            <div class="mb-3">
+              <label class="form-label h5">• During high school , have you had any concerns about your mental health eg stress , anxiety, low mood?</label>
+              <div class="question-1">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option1" value="option1" required>
+                <label class="form-check-label" for="option1">Yes</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option2" value="option2" required>
+                <label class="form-check-label" for="option2">No (you can bail out now or keep going to help with suggestions)</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option3" value="option3" required>
+                <label class="form-check-label" for="option3">I was worried about/supported a friend</label>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="mb-3">
+              <label class="form-label h5" for="question-2">• If yes , did you feel you had enough understanding and information on the problem?</label>
+              <div class="question-2">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option4" value="option4" required>
+                <label class="form-check-label" for="option4">Yes</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option5" value="option5" required>
+                <label class="form-check-label" for="option5">No</label>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="mb-3">
+              <label class="form-label h5" for="question-3">• Who has supported you/your friend with mental health stuff? (check as many as you can)</label>
+              <div class="question-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="option6" value="option6" required>
+                <label class="form-check-label" for="option1">Teacher</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="option7" value="option7" required>
+                <label class="form-check-label" for="option2">School counsellor</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="option8" value="option8" required>
+                <label class="form-check-label" for="option2">Friend</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="option9" value="option9" required>
+                <label class="form-check-label" for="option2">BF/GF</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="option10" value="option10" required>
+                <label class="form-check-label" for="option2">Parents</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="checkbox" id="option11" value="option11" required>
+                <label class="form-check-label" for="option2">Others</label>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="mb-3">
+              <label class="form-label h5" for="question-4">• If you didn't get support but wish you could have, what sort would you have liked?</label>
+              <div class="question-4">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option12" value="option12" required>
+                <label class="form-check-label" for="option12">Friend</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option13" value="option13" required>
+                <label class="form-check-label" for="option13">BF/GF</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option14" value="option14" required>
+                <label class="form-check-label" for="option14">A doctor</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option15" value="option15" required>
+                <label class="form-check-label" for="option15">School staff member</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="checkbox" id="option16" value="option16" required>
+                <label class="form-check-label" for="option16">Private individual therapy</label>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="exampleFormControlTextarea1" class="h5">• Your Message and Recommendation to the people who's experiencing mental health problems.</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+            <button type="submit" class="btn nav-link p-2">Submit</button>
+        </div>
+    </form>
+</section>
+         
+         <section id="home">
     <h1 id="ToE">Table of Elements</h1>
     <table>
         <tr>
@@ -251,199 +446,6 @@
         </tr>
        </section>
 
-
-     <section class="container p-5" id="survey">
-    
-    <form id="surveyform" class="needs-validation" novalidate>
-      <h1 class="title text-center p-5">Survey Form</h1>
-      <div class="container p-5 survey">
-        <div class="row">
-            <div class="mb-3 col-lg-6">
-              <label for="name" class="form-label">First Name</label>
-              <input type="text" class="form-control" id="name" required>
-              <div class="invalid-feedback">Please enter your name.</div>
-            </div>
-            <div class="mb-3 col-lg-6">
-              <label for="name" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="name" required>
-              <div class="invalid-feedback">Please enter your name.</div>
-            </div>
-            <div class="mb-3 col-lg-3">
-              <label for="name" class="form-label">Age</label>
-              <input type="text" class="form-control" id="name" required>
-              <div class="invalid-feedback">Please enter your Age.</div>
-            </div>
-            <div class="mb-3 col-lg-4">
-              <label for="name" class="form-label">Gender</label>
-              <input type="text" class="form-control" id="name" required>
-              <select class="form-control" id="gender" name="gender" required>
-                <option value="" disabled selected>Select your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Prefer not to say</option>
-              </select>
-              <div class="invalid-feedback">Please enter your Gender.</div>
-            </div>
-            <div class="mb-3 col-lg-5">
-              <label for="name" class="form-label">Country</label>
-              <input type="text" class="form-control" id="name" required>
-              <select class="form-control" id="Country" name="Country" required>
-                <option value="" disabled selected>Select your Country</option>
-                <option value="Philippines">Philippines</option>
-                <option value="Japan">Japan</option>
-                <option value="Korea">Korea</option>
-                <option value="United States">United States</option>
-                <option value="France">France</option>
-                <option value="Belgium">Belgium</option>
-                <option value="Indonesia">Indonesia</option>
-                <option value="Argentina">Argentina</option>
-                <option value="Armenia">Armenia</option>
-                <option value="Denmark">Denmark</option>
-                <option value="Czechia">Czechia</option>
-                <option value="Canada">Canada</option>
-                <option value="Austrilia">Austrilia</option>
-                <option value="Greece">Greece</option>
-                <option value="China">China</option>
-                <option value="Brazil">Brazil</option>
-                <option value="Colombia">Colombia</option>
-                <option value="Malaysia">Malaysia</option>
-                <option value="Finland">Finland</option>
-                <option value="Germany">Germany</option>
-                <option value="Italy">Italy</option>
-                <option value="India">India</option>
-                <option value="Austria">Austria</option>
-                <option value="Croatia">Croatia</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="Turkey">Turkey</option>
-                <option value="Afghanistan">Afghanistan</option>
-                <option value="Albania">Albania</option>
-                <option value="Algeria">Algeria</option>
-                <option value="Andorra">Andorra</option>
-                <option value="Angola">Angola</option>
-                <option value="Bahamas">Bahamas</option>
-                <option value="Bahrain">Bahrain</option>
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="Barbados">Barbados</option>
-                <option value="Belarus">Belarus</option>
-                <option value="Belize">Belize</option>
-                <option value="Benin">Benin</option>
-                <option value="Cameron">Cameron</option>
-                <option value="Central Africa">Central Africa</option>
-                <option value="Chad">Chad</option>
-                <option value="China">China</option>
-                <option value="Comoros">Comoros</option>
-                <option value="Congo">Congo</option>
-                <option value="Cuba">Cuba</option>
-                <option value="Cyprus">Cyprus</option>
-                <option value="Democratic">Democratic</option>
-                <option value="Dominican Republic">Dominican Republic</option>
-                <option value="Egypt">Egypt</option>
-                <option value="Estonia">Estonia</option>
-                <option value="Eswatini">Eswatini</option>
-                <option value="Fiji">Fiji</option>
-              </select>
-              <div class="invalid-feedback">Please enter your Country.</div>
-            </div>
-            <div>
-            <div class="mb-3">
-              <label class="form-label h5">• During high school , have you had any concerns about your mental health eg stress , anxiety, low mood?</label>
-              <div class="question-1">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option1" value="option1" required>
-                <label class="form-check-label" for="option1">Yes</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option2" value="option2" required>
-                <label class="form-check-label" for="option2">No (you can bail out now or keep going to help with suggestions)</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option3" value="option3" required>
-                <label class="form-check-label" for="option3">I was worried about/supported a friend</label>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div>
-            <div class="mb-3">
-              <label class="form-label h5" for="question-2">• If yes , did you feel you had enough understanding and information on the problem?</label>
-              <div class="question-2">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option4" value="option4" required>
-                <label class="form-check-label" for="option4">Yes</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option5" value="option5" required>
-                <label class="form-check-label" for="option5">No</label>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div>
-            <div class="mb-3">
-              <label class="form-label h5" for="question-3">• Who has supported you/your friend with mental health stuff? (check as many as you can)</label>
-              <div class="question-3">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="checkbox" id="option6" value="option6" required>
-                <label class="form-check-label" for="option1">Teacher</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="checkbox" id="option7" value="option7" required>
-                <label class="form-check-label" for="option2">School counsellor</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="checkbox" id="option8" value="option8" required>
-                <label class="form-check-label" for="option2">Friend</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="checkbox" id="option9" value="option9" required>
-                <label class="form-check-label" for="option2">BF/GF</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="checkbox" id="option10" value="option10" required>
-                <label class="form-check-label" for="option2">Parents</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="checkbox" id="option11" value="option11" required>
-                <label class="form-check-label" for="option2">Others</label>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div>
-            <div class="mb-3">
-              <label class="form-label h5" for="question-4">• If you didn't get support but wish you could have, what sort would you have liked?</label>
-              <div class="question-4">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option12" value="option12" required>
-                <label class="form-check-label" for="option12">Friend</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option13" value="option13" required>
-                <label class="form-check-label" for="option13">BF/GF</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option14" value="option14" required>
-                <label class="form-check-label" for="option14">A doctor</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option15" value="option15" required>
-                <label class="form-check-label" for="option15">School staff member</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="checkbox" id="option16" value="option16" required>
-                <label class="form-check-label" for="option16">Private individual therapy</label>
-              </div>
-            </div>
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="exampleFormControlTextarea1" class="h5">• Your Message and Recommendation to the people who's experiencing mental health problems.</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-          </div>
-            <button type="submit" class="btn nav-link p-2">Submit</button>
-        </div>
-    </form>
-</section>
 
 
 
